@@ -16,14 +16,19 @@ body {
     width: 50%;
     height: 100%;
     float: left;
-    display: table;
+    background-color: #33A1DE;
+}
+
+.HomePage-emptyBlock {  
+    height: 33%; 
 }
 
 .HomePage-informationContent {
-    height: 30%;
-    display: table-cell;
-    vertical-align: middle;
-    background-color: #33A1DE;
+    height: 33%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .HomePage-utilityBlock {
@@ -34,23 +39,29 @@ body {
 
 }
 
-.HomePage-loginContent {
+.HomePage-loginBlock {
     height: 33%;
-    background-color: white;
+}
+
+.HomePage-loginContent {
+    width:50%;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.HomePage-signupBlock {
+    height: 33%;
 }
 
 .HomePage-signupContent {
-    height: 33%;
-    background-color:blue;
-}
-
-.HomePage-emptyContent {
-    height: 33%;
-    background-color:white;
+    width:50%;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .HomePage-footer {
     height: 5%;
     border-top: #aab8c2 1px solid;
-    background-color:white;
 }
