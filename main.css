@@ -116,13 +116,30 @@ h2 {
     font-weight: bold;
 }
 
+form {
+    display: inline;
+}
+
 input {
     width: 35%;
     height: 15%;
+    margin-right: 15px;
 }
 
 input[type=text] {
     padding-left: 10px;
-    border: 1px solid #aab8c2;
-    color:#aab8c2   
+    border: 1px solid #e6ecf0;
+    border-radius: 5px; 
+    color: #666666
+}
+
+button {
+    border: 1px solid #33A1DE;
+    background-color: white;
+    border-radius: 30px;
+    color: #33A1DE;
+    height: 50px;
+    width: 85px;
+    font-family: 'Arial';
+    font-weight: 700;
 }
