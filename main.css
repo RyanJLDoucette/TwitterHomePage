@@ -46,10 +46,9 @@ body {
 
 .HomePage-loginContent {
     width:75%;
-    height:100%;
-    padding: 20px;
     margin-left:auto;
     margin-right:auto;
+    padding-top: 40px;
 }
 
 .HomePage-signupBlock {
@@ -121,7 +120,7 @@ form {
 }
 
 input {
-    width: 35%;
+    width: 40%;
     height: 15%;
     margin-right: 15px;
 }
@@ -139,7 +138,7 @@ button {
     border-radius: 30px;
     color: #33A1DE;
     height: 50px;
-    width: 85px;
+    width: 14%;
     font-family: 'Arial';
     font-weight: 700;
 }
