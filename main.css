@@ -17,6 +17,7 @@ body {
     height: 100%;
     float: left;
     background-color: #33A1DE;
+    border-bottom: #aab8c2 1px solid;
 }
 
 .HomePage-emptyBlock {  
@@ -37,7 +38,7 @@ body {
     height: 100%;
     float: left;
     background-color: white;
-
+    border-bottom: #aab8c2 1px solid;
 }
 
 .HomePage-loginBlock {
@@ -81,9 +82,18 @@ body {
     border-radius:20px;
 }
 
-.HomePage-footer {
+.HomePage-footerBlock {
     height: 5%;
-    border-top: #aab8c2 1px solid;
+    width: 100%;
+    background-color: white;
+}
+
+.HomePage-footerContent {
+    height: 100%;
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
 }
 
 img {
@@ -141,4 +151,22 @@ button {
     width: 14%;
     font-family: 'Arial';
     font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 20px 12px;
+    font: 12px Arial;
+    color:#aab8c2;
+    text-decoration: none;
 }
