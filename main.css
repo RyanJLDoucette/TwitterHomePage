@@ -1,3 +1,56 @@
-* {
-    color:white;
+body {
+    background-color: #E8E8E8;
+}
+
+.HomePage {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.HomePage-content {
+    height: 95%;
+}
+
+.HomePage-informationBlock {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: table;
+}
+
+.HomePage-informationContent {
+    height: 30%;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #33A1DE;
+}
+
+.HomePage-utilityBlock {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: white;
+
+}
+
+.HomePage-loginContent {
+    height: 33%;
+    background-color: white;
+}
+
+.HomePage-signupContent {
+    height: 33%;
+    background-color:blue;
+}
+
+.HomePage-emptyContent {
+    height: 33%;
+    background-color:white;
+}
+
+.HomePage-footer {
+    height: 5%;
+    border-top: #aab8c2 1px solid;
+    background-color:white;
 }
