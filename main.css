@@ -20,7 +20,7 @@ body {
 }
 
 .HomePage-emptyBlock {  
-    height: 33%; 
+    height: 40%; 
 }
 
 .HomePage-informationContent {
@@ -28,6 +28,7 @@ body {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 30px; 
     display: block;
 }
 
@@ -55,7 +56,7 @@ body {
 }
 
 .HomePage-signupContent {
-    width:35%;
+    width:40%;
     height:100%;
     margin-left:auto;
     margin-right:auto;
@@ -91,18 +92,25 @@ img {
 }
 
 h1 {
+    font-family: 'Arial';
     font-size:2em;
-    font-weight: bold;
+}
+
+.HomePage-informationContent h2 {
+    color: white;
+    font-family: 'Arial';
+    font-size: 1.5em;
+    margin: 30px;
 }
 
 h2 {
-    font-family: 'Arial, Helvetica, sans-serif';
+    font-family: 'Arial';
     font-size: 1.25em;
 }
 
 .HomePage-signupContent p {
     text-align: center;
     margin-top: 5px;
-    font-family: 'Arial, Helvetica, sans-serif';
+    font-family: 'Arial';
     font-weight: bold;
 }
